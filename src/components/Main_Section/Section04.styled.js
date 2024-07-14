@@ -43,12 +43,12 @@ export const CircleContainer = styled.div`
 
   h3 {
     font-weight: 600;
-    font-size: clamp(1.5rem, 2.5vw, 2rem);
+    font-size: clamp(1rem, 2.5vw, 2rem);
     margin-bottom: 20px;
   }
 
   p {
-    font-size: clamp(1rem, 2vw, 1.25rem);
+    font-size: clamp(0.5rem, 2vw, 1.25rem);
     margin-bottom: 5px;
   }
 
