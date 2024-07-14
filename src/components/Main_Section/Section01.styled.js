@@ -6,56 +6,35 @@ export const MainWrap = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 50px;
 `;
 
 export const Section01Wrap = styled.div`
   background-color: #111;
+  width: 80%;
   height: 850px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin : 0;
+  margin : 10%;
 `;
 
 export const Section01Content = styled.div`
-  width: 100%;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  
-  p {
-    font-size: clamp(1rem, 5.46875vw, 5rem);
-    color: #fff;
-    margin: 10px;
-  }
+  width: 100%;
 `;
-
+export const S01Text = styled.p`
+  flex: 0 0 auto; 
+  font-size: clamp(1rem, 5.46875vw, 5rem);
+  color: #fff;
+    margin: 10px;
+`;
 export const ImageDiv = styled.img`
-  width: auto;
-  height: 80px;
+  flex: 1; /* 이미지가 남은 공간을 차지 */
+  height: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
-  &.Img01 {
-    max-width: 440px;
-    width: 100%;
-  }
-
-  &.Img02 {
-    max-width: 600px;
-    width: 100%;
-  }
-
-  &.Img03 {
-    max-width: 275px;
-    width: 100%;
-  }
-
-  &.Img04 {
-    max-width: 620px;
-    width: 100%;
-  }
 `;

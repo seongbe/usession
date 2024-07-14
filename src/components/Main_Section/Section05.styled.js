@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const Section05Wrap = styled.section`
-  padding: 8% 10%;
+  padding: 20px 20px;
+  width: 100%;
   border-bottom: 2px solid #e3e3e3;
 `;
 
@@ -24,10 +25,12 @@ export const Section05Header = styled.div`
 `;
 export const Section05Grid = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  max-width: 1250px;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
   gap: 30px;
-  width: 100%;
+  margin: 0 auto; 
   justify-items: center;
+  place-content: center;
 `;
 export const Section05MainContentBlock = styled.div`
   cursor: pointer;
