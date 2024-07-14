@@ -1,16 +1,15 @@
 import styled from 'styled-components';
 
-export const MainWrap = styled.nav`
+export const MainWrap = styled.section`
   width: 100%;
-  height: 80px;
   background-color: #111111;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 0 50px;
 `;
 
-export const Section01Wrap = styled.section`
+export const Section01Wrap = styled.div`
   background-color: #111;
   height: 850px;
   display: flex;
@@ -21,7 +20,7 @@ export const Section01Wrap = styled.section`
 `;
 
 export const Section01Content = styled.div`
-  width: auto;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -34,24 +33,29 @@ export const Section01Content = styled.div`
 `;
 
 export const ImageDiv = styled.img`
+  width: auto;
   height: 80px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
   &.Img01 {
-    width: 440px;
+    max-width: 440px;
+    width: 100%;
   }
 
   &.Img02 {
-    width: 600px;
+    max-width: 600px;
+    width: 100%;
   }
 
   &.Img03 {
-    width: 275px;
+    max-width: 275px;
+    width: 100%;
   }
 
   &.Img04 {
-    width: 620px;
+    max-width: 620px;
+    width: 100%;
   }
 `;

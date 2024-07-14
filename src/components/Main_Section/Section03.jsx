@@ -9,7 +9,7 @@ const Section03 = () => {
         <Section03Wrap>
             <Section03Content>
                 <img src={Img01} alt="Img01" />
-                <div className='right'>
+                <div className='right text-container' >
                     <p className='tage'>VISION</p>
                     <h2>
                         IT 교육 기회를 제공하여<br />
@@ -22,7 +22,7 @@ const Section03 = () => {
                 </div>
             </Section03Content>
             <Section03Content>
-                <div className='right'>
+                <div className='right text-container'>
                     <p className='tage'>VISION</p>
                     <h2>
                         IT 기술로 IT 교육의 문제를<br />
@@ -37,7 +37,7 @@ const Section03 = () => {
             </Section03Content>
             <Section03Content>
                 <img src={Img03} alt="Img03" />
-                <div className='right'>
+                <div className='right text-container'>
                     <p className='tage'>VISION</p>
                     <h2>
                         지속 성장이 가능한 IT<br />

@@ -3,17 +3,17 @@ import Img01 from '../../assets/img/section04_1.png'
 import Img02 from '../../assets/img/section04_2.png'
 import Img03 from '../../assets/img/section04_3.png'
 import Img04 from '../../assets/img/section04_4.png'
-import { Section05Wrap } from './Section05.styled'
+import { Section05Grid, Section05Header, Section05MainContentBlock, Section05Wrap } from './Section05.styled'
 
 const Section05 = () => {
     return (
         <Section05Wrap>
-            <div className="header">
+            <Section05Header>
                 <h3>LIKELION MEDIA</h3>
                 <h1>언론 속의 LIKELION</h1>
-            </div>
-            <div className="main">
-                <div>
+            </Section05Header>
+            <Section05Grid>
+                <Section05MainContentBlock>
                     <img src={Img01} alt="Img01" />
                     <div>
                         <h3>
@@ -26,8 +26,8 @@ const Section05 = () => {
                         </p>
                         <p className='info'>머니S | 2023.10.31</p>
                     </div>
-                </div>
-                <div>
+                </Section05MainContentBlock>
+                <Section05MainContentBlock>
                     <img src={Img02} alt="Img02" />
                     <div>
                         <h3>
@@ -39,8 +39,8 @@ const Section05 = () => {
                         </p>
                         <p className='info'>더별 | 2023.01.27</p>
                     </div>
-                </div>
-                <div>
+                </Section05MainContentBlock>
+                <Section05MainContentBlock>
                     <img src={Img03} alt="Img03" />
                     <div>
                         <h3>
@@ -52,8 +52,8 @@ const Section05 = () => {
                         </p>
                         <p className='info'>경향게임스 | 2023.09.13</p>
                     </div>
-                </div>
-                <div>
+                </Section05MainContentBlock>
+                <Section05MainContentBlock>
                     <img src={Img04} alt="Img04" />
                     <div>
                         <h3>
@@ -65,8 +65,8 @@ const Section05 = () => {
                         </p>
                         <p className='info'>디지털투데이 | 2023.09.27</p>
                     </div>
-                </div>
-            </div>
+                </Section05MainContentBlock>
+            </Section05Grid>
         </Section05Wrap>
     )
 }
