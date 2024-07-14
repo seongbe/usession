@@ -3,10 +3,11 @@ import Img01 from '../../assets/img/section04_1.png'
 import Img02 from '../../assets/img/section04_2.png'
 import Img03 from '../../assets/img/section04_3.png'
 import Img04 from '../../assets/img/section04_4.png'
+import { Section05Wrap } from './Section05.styled'
 
 const Section05 = () => {
     return (
-        <div className='Section05_wrap'>
+        <Section05Wrap>
             <div className="header">
                 <h3>LIKELION MEDIA</h3>
                 <h1>언론 속의 LIKELION</h1>
@@ -66,7 +67,7 @@ const Section05 = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </Section05Wrap>
     )
 }
 

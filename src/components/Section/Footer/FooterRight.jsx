@@ -17,10 +17,10 @@ export default function FooterRight() {
         <h3>POLICY</h3>
         <p>이용약관</p>
         <p>개인정보처리방침</p>
-        <divdiv className="image_p_box">
+        <div className="image_p_box">
           <p>Nonprofit Report</p>
           <img src={Download} alt="Download" />
-        </divdiv>
+        </div>
         <div className="image_p_box">
           <p>국민권익위원회</p>
           <img src={Share} alt="Share" />

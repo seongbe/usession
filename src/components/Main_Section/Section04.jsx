@@ -1,8 +1,9 @@
 import React from 'react'
+import { Section04Wrap } from './Section04.styled'
 
 const Section04 = () => {
     return (
-        <div className='Section04_wrap'>
+        <Section04Wrap>
             <h3>
                 <em>CORE-VALUES</em><br />
                 GROUND-RULES
@@ -27,7 +28,7 @@ const Section04 = () => {
                     <p>소통 : Communication</p>
                 </div>
             </div>
-        </div>
+        </Section04Wrap>
     )
 }
 
