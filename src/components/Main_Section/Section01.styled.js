@@ -24,12 +24,6 @@ export const Section01Content = styled.div`
   align-items: center;
   width: 100%;
 `;
-export const S01Text = styled.p`
-  flex: 0 0 auto; 
-  font-size: clamp(1rem, 5.46875vw, 5rem);
-  color: #fff;
-    margin: 10px;
-`;
 export const ImageDiv = styled.img`
   flex: 1; /* 이미지가 남은 공간을 차지 */
   height: auto;
