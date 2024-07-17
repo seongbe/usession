@@ -1,16 +1,16 @@
-import React from 'react'
-import { Section02Wrap } from './Section02.styled'
+import styled from 'styled-components';
 
-const Section02 = () => {
-    return (
-        <Section02Wrap>
-            <p>MISSION</p>
-            <h2>
-                사람과 기술을 연결한다.<br />
-                Connecting people and technology.
-            </h2>
-        </Section02Wrap>
-    )
-}
+// export const MainWrap = styled.section`
+//   width: 100%;
+//   background-color: #111111;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// `;
 
-export default Section02
+{/* 
+     src/assets/sass/sction/_mainsection안에 스타일을 참고해서
+                Section01Wrap, Section01Content,를 활용한 style.js를 
+                위에 예시처럼 만들어주세요
+                 잘모르겠다면 Section04.styled.js 참고
+    */}

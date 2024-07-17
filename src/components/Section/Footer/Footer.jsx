@@ -10,6 +10,9 @@ const Footer = () => {
       <FooterLeft />
       <FooterRight />
     </S.Layout>
+    /* 
+        footer구성
+        */
   );
 };
 
