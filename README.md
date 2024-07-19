@@ -14,3 +14,6 @@
 
 ## 할 것
 - main
+
+## 디자인
+- https://www.figma.com/design/yw1tlmbnwZOzWAd99NqpHz/Untitled?node-id=1632-2&t=0mwxFDVFtcbjKqGh-0
